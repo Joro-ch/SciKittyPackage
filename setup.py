@@ -1,11 +1,16 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 readme = open("./READEME.md", "r")
 
+def read_requirements():
+    with open('requirements.txt') as req_file:
+        return req_file.read().splitlines()
+
 setup(
     name='scikitty',
-    packages=['scikitty'],
-    version=0.1,
+    packages=find_packages(),
+    install_requires=read_requirements(),
+    version=0.5,
     description='A package to create Decision Trees like Scikitlearn.',
     long_description=readme.read(),
     long_description_content_type='text/markdown',
