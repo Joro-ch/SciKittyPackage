@@ -35,9 +35,9 @@ class TreeVisualizer:
 
     Ejemplos
     --------
-    >>> from Scikitty.models.DecisionTree import DecisionTree
-    >>> from Scikitty.view.TreeVisualizer import TreeVisualizer
-    >>> from Scikitty.model_selection.train_test_split import train_test_split
+    >>> from scikitty.models.DecisionTree import DecisionTree
+    >>> from scikitty.view.TreeVisualizer import TreeVisualizer
+    >>> from scikitty.model_selection.train_test_split import train_test_split
     >>> import pandas as pd
 
     >>> # Se almacena el nombre del archivo donde se guarda el dataset
@@ -91,9 +91,9 @@ class TreeVisualizer:
 
         Ejemplos
         -------- 
-        >>> from Scikitty.models.DecisionTree import DecisionTree
-        >>> from Scikitty.view.TreeVisualizer import TreeVisualizer
-        >>> from Scikitty.model_selection.train_test_split import train_test_split
+        >>> from scikitty.models.DecisionTree import DecisionTree
+        >>> from scikitty.view.TreeVisualizer import TreeVisualizer
+        >>> from scikitty.model_selection.train_test_split import train_test_split
         >>> import pandas as pd
 
         >>> # Se almacena el nombre del archivo donde se guarda el dataset
@@ -192,9 +192,9 @@ class TreeVisualizer:
 
         Ejemplos
         --------
-        >>> from Scikitty.models.DecisionTree import DecisionTree
-        >>> from Scikitty.view.TreeVisualizer import TreeVisualizer
-        >>> from Scikitty.model_selection.train_test_split import train_test_split
+        >>> from scikitty.models.DecisionTree import DecisionTree
+        >>> from scikitty.view.TreeVisualizer import TreeVisualizer
+        >>> from scikitty.model_selection.train_test_split import train_test_split
         >>> import pandas as pd
 
         >>> # Se almacena el nombre del archivo donde se guarda el dataset

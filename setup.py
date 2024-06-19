@@ -10,7 +10,7 @@ setup(
     name='scikitty',
     packages=find_packages(),
     install_requires=read_requirements(),
-    version=0.6,
+    version=0.7,
     description='A package to create Decision Trees like Scikitlearn.',
     long_description=readme.read(),
     long_description_content_type='text/markdown',

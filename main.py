@@ -25,7 +25,7 @@
 """
 -----------------------SCRIPT playTennis SCIKITTY----------------------------
 
-    Este script demuestra el uso de varias funcionalidades en el módulo Scikitty:
+    Este script demuestra el uso de varias funcionalidades en el módulo scikitty:
     - Cargar un dataset.
     - Preparar y dividir los datos en conjuntos de entrenamiento y prueba.
     - Entrenar un modelo de árbol de decisión.

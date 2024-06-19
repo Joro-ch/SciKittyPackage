@@ -60,7 +60,7 @@ class Nodo:
 
         Ejemplos
         --------
-        >>> from Scikitty.models.DecisionTree import Nodo
+        >>> from scikitty.models.DecisionTree import Nodo
         >>> ...
         >>> nodo = Nodo(es_hoja=True, regla=None, impureza=nodo_impureza, etiquetas=etiquetas)
         >>> ...
@@ -125,7 +125,7 @@ class Nodo:
 
             Ejemplos
             --------
-            >>> from Scikitty.models.DecisionTree import Nodo
+            >>> from scikitty.models.DecisionTree import Nodo
             >>> ...
             >>> nodo = Nodo(es_hoja=True, regla=None, impureza=nodo_impureza, etiquetas=etiquetas)
             >>> nodo._etiqueta_mas_comun(etiquetas=etiquetas)
@@ -176,8 +176,8 @@ class DecisionTree:
 
         Ejemplos
         --------
-        >>> from Scikitty.models.DecisionTree import DecisionTree
-        >>> from Scikitty.model_selection.train_test_split import train_test_split
+        >>> from scikitty.models.DecisionTree import DecisionTree
+        >>> from scikitty.model_selection.train_test_split import train_test_split
         >>> import pandas as pd
         
         >>> # Se almacena el nombre del archivo donde se guarda el dataset.
@@ -264,8 +264,8 @@ class DecisionTree:
 
             Ejemplos
             -------- 
-            >>> from Scikitty.models.DecisionTree import DecisionTree
-            >>> from Scikitty.model_selection.train_test_split import train_test_split
+            >>> from scikitty.models.DecisionTree import DecisionTree
+            >>> from scikitty.model_selection.train_test_split import train_test_split
             >>> import pandas as pd
 
             >>> # Se almacena el nombre del archivo donde se guarda el dataset.
@@ -324,8 +324,8 @@ class DecisionTree:
             Ejemplos
             -------- 
 
-            >>> from Scikitty.models.DecisionTree import DecisionTree
-            >>> from Scikitty.model_selection.train_test_split import train_test_split
+            >>> from scikitty.models.DecisionTree import DecisionTree
+            >>> from scikitty.model_selection.train_test_split import train_test_split
             >>> import pandas as pd
 
             >>> # Se almacena el nombre del archivo donde se guarda el dataset
@@ -398,8 +398,8 @@ class DecisionTree:
             
             Ejemplos
             --------
-            >>> from Scikitty.models.DecisionTree import DecisionTree
-            >>> from Scikitty.model_selection.train_test_split import train_test_split
+            >>> from scikitty.models.DecisionTree import DecisionTree
+            >>> from scikitty.model_selection.train_test_split import train_test_split
             >>> import pandas as pd
 
             >>> # Se almacena el nombre del archivo donde se guarda el dataset
@@ -829,8 +829,8 @@ class DecisionTree:
 
             Ejemplos
             --------
-            >>> from Scikitty.models.DecisionTree import DecisionTree
-            >>> from Scikitty.model_selection.train_test_split import train_test_split
+            >>> from scikitty.models.DecisionTree import DecisionTree
+            >>> from scikitty.model_selection.train_test_split import train_test_split
             >>> import pandas as pd
 
             >>> # Se almacena el nombre del archivo donde se guarda el dataset.
@@ -941,8 +941,8 @@ class DecisionTree:
 
             Ejemplos
             --------
-            >>> from Scikitty.models.DecisionTree import DecisionTree
-            >>> from Scikitty.model_selection.train_test_split import train_test_split
+            >>> from scikitty.models.DecisionTree import DecisionTree
+            >>> from scikitty.model_selection.train_test_split import train_test_split
             >>> import pandas as pd
 
             >>> # Se almacena el nombre del archivo donde se guarda el dataset.
@@ -999,8 +999,8 @@ class DecisionTree:
 
             Ejemplos
             --------
-            >>> from Scikitty.models.DecisionTree import DecisionTree
-            >>> from Scikitty.model_selection.train_test_split import train_test_split
+            >>> from scikitty.models.DecisionTree import DecisionTree
+            >>> from scikitty.model_selection.train_test_split import train_test_split
             >>> import pandas as pd
 
             >>> # Se almacena el nombre del archivo donde se guarda el dataset

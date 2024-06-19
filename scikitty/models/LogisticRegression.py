@@ -24,7 +24,7 @@
 # --------------------------------------------------------------------------------- #
 
 import numpy as np
-from Scikitty.models.LinearRegression import LinearRegression
+from scikitty.models.LinearRegression import LinearRegression
 
 class LogisticRegression:
     """

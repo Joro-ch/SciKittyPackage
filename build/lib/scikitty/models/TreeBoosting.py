@@ -24,7 +24,7 @@
 # --------------------------------------------------------------------------------- #
 
 import numpy as np
-from Scikitty.models.DecisionStump import DecisionStump
+from scikitty.models.DecisionStump import DecisionStump
 
 class TreeBoosting:
     """
