@@ -14,7 +14,11 @@ scikitty/metrics/precision_score.py
 scikitty/metrics/recall_score.py
 scikitty/model_selection/__init__.py
 scikitty/model_selection/train_test_split.py
+scikitty/models/DecisionStump.py
 scikitty/models/DecisionTree.py
+scikitty/models/LinearRegression.py
+scikitty/models/LogisticRegression.py
+scikitty/models/TreeBoosting.py
 scikitty/models/__init__.py
 scikitty/persist/TreePersistence.py
 scikitty/persist/__init__.py
